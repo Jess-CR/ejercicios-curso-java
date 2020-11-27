@@ -1,0 +1,20 @@
+import java.util.Scanner;
+ public class Calculadora{
+  public static void main (String args[]){
+  
+  Scanner teclado = new Scanner(System.in);
+
+  int num_uno = 0, num_dos = 0, resultado = 0, operacion = 0;
+
+  String nombre1 = "", contraseña1 = "", nombre2 = "", contraseña2 = "";
+
+   System.out.println("");
+   System.out.println("");
+   System.out.println("***************");
+   System.out.println("Bienvenidos a esta calculadora privada");
+   System.out.println("***************");
+   System.out.println("");
+
+   System.out.println("Ingrese su nombre de usuario");
+ }
+}

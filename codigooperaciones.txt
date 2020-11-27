@@ -1,0 +1,25 @@
+public class Condicionales_anidadas {
+  public static void main (String args []){
+
+   int operacion = 1;
+   int num_uno   = 1;
+   int num_dos   = 2;
+   int resultado = 0;
+ 
+    if (operacion == 1){
+       resultado = num_uno + num_dos;
+       System.out.println("Resultado de la suma: " + resultado);
+    } else if(operacion == 2) {
+        resultado = num_uno - num_dos;
+        System.out.println("Resultado de la resta: " + resultado);
+    } else if(operacion == 3) {
+        resultado = num_uno * num_dos;
+        System.out.println("Resultado de la multiplicación: " + resultado);
+    } else if(operacion == 4) {
+        resultado = num_uno / num_dos;
+        System.out.println("Resultado de la division: " + resultado);
+    } else {
+       System.out.println("La opción que elegiste no existe");
+    }
+ }
+}
